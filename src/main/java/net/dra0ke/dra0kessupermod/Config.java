@@ -1,4 +1,4 @@
-package net.dra0ke.firstmod;
+package net.dra0ke.dra0kessupermod;
 
 import java.util.List;
 
