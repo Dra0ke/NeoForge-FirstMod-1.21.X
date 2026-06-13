@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "dra0kessupermod:block/dense_nether_quartz_block"
+  }
+}

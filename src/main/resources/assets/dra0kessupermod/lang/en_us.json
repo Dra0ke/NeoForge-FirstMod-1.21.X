@@ -1,4 +1,7 @@
 {
-  "item.dra0kessupermod.hubnerite": "Hubnerite",
-  "item.dra0kessupermod.nether_quartz_shard": "Nether Quartz Shard"
+  "item.dra0kessupermod.hubnerite": "Hübnerite",
+  "item.dra0kessupermod.nether_quartz_shard": "Nether Quartz Shard",
+
+  "block.dra0kessupermod.dense_nether_quartz_block": "Dense Nether Quartz Ore",
+  "block.dra0kessupermod.hubnerite_hubnerite": "Hübnerite Ore"
 }

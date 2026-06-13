@@ -1,5 +1,6 @@
 package net.dra0ke.dra0kessupermod;
 
+import net.dra0ke.dra0kessupermod.block.ModBlocks;
 import net.dra0ke.dra0kessupermod.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -34,6 +35,7 @@ public class Dra0kesSuperMod {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -50,6 +52,11 @@ public class Dra0kesSuperMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.HUBNERITE);
             event.accept(ModItems.NETHER_QUARTZ_SHARD);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+            event.accept(ModBlocks.DENSE_NETHER_QUARTZ_BLOCK);
+            event.accept(ModBlocks.HUBNERITE_HUBNERITE);
         }
     }
 
