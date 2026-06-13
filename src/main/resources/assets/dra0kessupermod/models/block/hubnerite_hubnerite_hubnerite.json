@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "dra0kessupermod:block/hubnerite_hubnerite_hubnerite_top",
+    "side": "dra0kessupermod:block/hubnerite_hubnerite_hubnerite_side"
+  }
+}

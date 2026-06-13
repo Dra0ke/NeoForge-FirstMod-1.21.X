@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "Q": {
+      "item": "minecraft:quartz"
+    },
+    "H": {
+      "item": "dra0kessupermod:hubnerite"
+    }
+  },
+  "pattern": [
+    "QQQ",
+    "QHQ",
+    "QQQ"
+  ],
+  "result": {
+    "count": 9,
+    "id": "dra0kessupermod:hubnerite_hubnerite_hubnerite"
+  }
+}
