@@ -32,21 +32,21 @@
               "type": "minecraft:item",
               "functions": [
                 {
-                  "enchantment": "minecraft:fortune",
-                  "formula": "minecraft:ore_drops",
-                  "function": "minecraft:apply_bonus"
-                },
-                {
                   "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "min": 1,
-                    "max": 3
+                    "min": 2,
+                    "max": 4
                   },
                   "add": false
                 },
                 {
                   "function": "minecraft:explosion_decay"
+                },
+                {
+                  "function": "minecraft:apply_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "formula": "minecraft:ore_drops"
                 }
               ],
               "name": "minecraft:quartz"

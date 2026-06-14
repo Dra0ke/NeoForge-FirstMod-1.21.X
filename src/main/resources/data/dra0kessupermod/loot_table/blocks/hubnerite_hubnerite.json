@@ -2,7 +2,7 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": 0,
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:alternatives",
@@ -26,56 +26,49 @@
                     }
                   }
                 }
-              ],
-              "functions": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "dra0kessupermod:hubnerite",
-          "functions": [
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
+              ]
             },
             {
-              "function": "minecraft:explosion_decay"
-            }
-          ]
-        }
-      ],
-      "functions": []
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "dra0kessupermod:nether_quartz_shard",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
-              },
-              "add": false
-            },
-            {
-              "function": "minecraft:apply_bonus",
-              "enchantment": "minecraft:fortune",
-              "formula": "minecraft:ore_drops"
-            },
-            {
-              "function": "minecraft:explosion_decay"
+              "type": "minecraft:sequence",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "name": "dra0kessupermod:hubnerite",
+                  "functions": [
+                    {
+                      "function": "minecraft:apply_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:ore_drops"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
+                },
+                {
+                  "type": "minecraft:item",
+                  "name": "dra0kessupermod:nether_quartz_shard",
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": {
+                        "type": "minecraft:uniform",
+                        "min": 9,
+                        "max": 18
+                      },
+                      "add": false
+                    },
+                    {
+                      "function": "minecraft:apply_bonus",
+                      "enchantment": "minecraft:fortune",
+                      "formula": "minecraft:ore_drops"
+                    },
+                    {
+                      "function": "minecraft:explosion_decay"
+                    }
+                  ]
+                }
+              ]
             }
           ]
         }
