@@ -2,9 +2,14 @@
   "item.dra0kessupermod.hubnerite": "Hübnerite",
   "item.dra0kessupermod.nether_quartz_shard": "Quartz Shard",
 
+  "item.dra0kessupermod.better_bread": "Bread",
+
+  "item.dra0kessupermod.raw_hell_stone": "Raw Hell Stone",
+
   "block.dra0kessupermod.dense_nether_quartz_block": "Dense Nether Quartz Ore",
   "block.dra0kessupermod.hubnerite_hubnerite": "Hübnerite Ore",
   "block.dra0kessupermod.hubnerite_hubnerite_hubnerite": "Hübnerite Block",
+  "block.dra0kessupermod.hell_stone": "Hell Stone",
 
   "creativetab.dra0kessupermod.dra0kes_super_items": "Dra0kes Items",
   "creativetab.dra0kessupermod.dra0kes_super_blocks": "Dra0kes Blocks"

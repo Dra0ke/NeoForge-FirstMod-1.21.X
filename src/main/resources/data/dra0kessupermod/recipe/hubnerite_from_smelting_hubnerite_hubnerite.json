@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "iron",
+  "ingredient": {
+    "item": "dra0kessupermod:hubnerite_hubnerite"
+  },
+  "result": {
+    "id": "dra0kessupermod:hubnerite"
+  }
+}

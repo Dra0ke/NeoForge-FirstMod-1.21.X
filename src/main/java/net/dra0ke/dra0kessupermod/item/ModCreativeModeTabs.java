@@ -22,6 +22,10 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.HUBNERITE);
                         output.accept(ModItems.NETHER_QUARTZ_SHARD);
+
+                        output.accept(ModItems.BETTER_BREAD);
+
+                        output.accept(ModItems.RAW_HELL_STONE);
                     }).build());
 
     public static final Supplier<CreativeModeTab> DRA0KES_SUPER_BLOCKS_TAB = CREATIVE_MODE_TAB.register("dra0kes_super_blocks_tab",
@@ -32,6 +36,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.HUBNERITE_HUBNERITE);
                         output.accept(ModBlocks.HUBNERITE_HUBNERITE_HUBNERITE);
                         output.accept(ModBlocks.DENSE_NETHER_QUARTZ_BLOCK);
+                        output.accept(ModBlocks.HELL_STONE);
                     }).build());
 
     public static void register(IEventBus eventBus) {

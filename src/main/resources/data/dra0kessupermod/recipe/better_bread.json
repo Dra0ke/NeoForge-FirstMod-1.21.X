@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "PPP",
+    "BBB",
+    "TTT"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:lily_of_the_valley"
+    },
+    "B": {
+      "item": "minecraft:bread"
+    },
+    "T": {
+      "item": "minecraft:white_tulip"
+    }
+  },
+  "result": {
+    "id": "dra0kessupermod:better_bread",
+    "count": 3
+  }
+}

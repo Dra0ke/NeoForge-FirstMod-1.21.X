@@ -1,6 +1,7 @@
 package net.dra0ke.dra0kessupermod.block;
 
 import net.dra0ke.dra0kessupermod.Dra0kesSuperMod;
+import net.dra0ke.dra0kessupermod.block.custom.HellStoneBlock;
 import net.dra0ke.dra0kessupermod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -29,6 +30,9 @@ public class ModBlocks {
     public static final DeferredBlock<Block> HUBNERITE_HUBNERITE_HUBNERITE = registerBlock("hubnerite_hubnerite_hubnerite",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4.8f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+    public static final DeferredBlock<Block> HELL_STONE = registerBlock("hell_stone",
+            () -> new HellStoneBlock(BlockBehaviour.Properties.of()
+                    .strength(1.5f).requiresCorrectToolForDrops().sound(SoundType.STONE).lightLevel(state -> 1)));
 
 
 

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "dra0kessupermod:item/raw_hell_stone"
+  }
+}
